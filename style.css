@@ -57,10 +57,11 @@ body {
   }
 
   .pre-footer {
-    background-image: url("Photo2.JPG");
+    background-image: url("Photo2.jpg");
     background-size: cover;
     background-position: center;
-    height: 23em;
+    background-repeat: no-repeat;
+    height: 300px;
   }
   .parallax {
     background-attachment: fixed;
