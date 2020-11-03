@@ -1,0 +1,67 @@
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 38em; /*600px*/
+    margin: 0 auto;
+    padding: 0 4em; /*64px*/
+}
+
+.hero {
+    background:#333333;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url("Photo1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.hero h2 {
+    font-size: 4em;
+    margin: 0 0 10px;
+    line-height: 1;
+    color: rgb(110, 191, 247, 0.6);
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+    letter-spacing: 0.1em;
+    /* ORIGINAL
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);*/
+}
+
+.hero p {
+    font-size: 2em;
+    color: rgba(100, 150, 200, 0.8);
+    line-height: 1.2;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+  }
+
+  .page-content {
+    margin: 50px 0 70px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 2em 0 3em;
+    font-size: 0.9em;
+  }
+
+  .pre-footer {
+    background-image: url("Photo2.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 23em;
+  }
+  .parallax {
+    background-attachment: fixed;
+  }
