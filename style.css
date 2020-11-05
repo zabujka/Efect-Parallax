@@ -66,3 +66,80 @@ body {
   .parallax {
     background-attachment: fixed;
   }
+
+@media (min-width: 200px) {
+    .hero h2 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 319px) {
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 376px) {
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .content {
+        max-width: 33em;
+        margin: 0 auto;
+        padding: 0 3em;
+    }
+}
+
+@media (min-width: 414px) {
+    .hero h2 {
+        font-size: 3em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .hero h2 {
+        font-size: 4em;
+    }
+
+    .hero p {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 1023px) {
+    .hero h2 {
+        font-size: 5em;
+    }
+
+    .hero p {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 1400px) {
+    .hero h2 {
+        font-size: 6em;
+    }
+
+    .hero p {
+        font-size: 4em;
+    }
+}
