@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Seymour+One&display=swap');
+
+
+
 body {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -26,6 +30,7 @@ body {
 
 
 .hero h2 {
+    font-family: 'Seymour One', cursive;
     font-size: 4em;
     margin: 0 0 10px;
     line-height: 1;
@@ -38,6 +43,7 @@ body {
 }
 
 .hero p {
+    font-family: 'Seymour One', cursive;
     font-size: 2em;
     color: rgba(100, 150, 200, 0.8);
     line-height: 1.2;
